@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_BASE_URL = "https://api/hand2text.com";
+const API_BASE_URL = "https://api.hand2text.com";
 
 export const recognizeFromURL = async (imageUrl) => {
   try {
